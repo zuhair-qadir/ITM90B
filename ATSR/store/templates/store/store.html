@@ -1,0 +1,96 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>ATSR Rental Services</h2>
+        <hr>
+        <p> ATSR is a company that provides rental services to both companies and regular in-store customers. We take pride in the quality of our tools, our prices, and our customer service. </p>
+        <p>Our new website allows companies to submit a quote online, to do so, please head over to our "Quote Service" tab.</p>
+        <p>View some of our most frequently rented tools below!</p>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>ATSR Tool Rentals</strong>
+          <br>123 Somewhere Street
+          <br>Somewhere Town, CA L6R 4J9
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">P:</abbr>
+          (123) 456-7890
+          <br>
+          <abbr title="Email">E:</abbr>
+          <a href="mailto:#">Info@ATSR.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'images/penta_e_l.png' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Concrete Mixer</h4>
+            <p class="card-text">This tough rental proven professional mixer, is a highly cost effective machine that's easy to use by contractors and home owners alike. Highly portable and easily moved into position even through doorways. Will mix concrete and also used extensively for mixing mortar.
+Professional duty, highly portable Minimix 150
+Supplied with an easy to assemble stand, one person can lift/lower the mixer onto and off the stand.
+Easy access top cover for accessing the double insulated motor.</p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'images/811ftkGc1GL._AC_SS450_.jpg' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Ground Compactor</h4>
+            <p class="card-text">Handles heavy duty applications of sand and gravel into crevices to lock in pavers, bricks and blocks using a 20" plate. Ideal for large projects like parking areas, driveways or subfloors as well as large hardscape projects. Large capacity water tank and the wide filler opening leads to easy operator use and improved productivity.</p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'images/Unknown.jpeg' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Drill Machine</h4>
+            <p class="card-text">Perfect for drilling in concrete, wood and metal. Ideal for DIY, concrete contractors and remodelers. Ergonomic and compact design increase comfort and control while Makita-built 4-pole motor provides 750 in. lbs. of Max Torque.</p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; ATSR 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+{% endblock content %}
